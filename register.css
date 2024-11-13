@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del formulario */
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00ffd1; /* Borde cibernético */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 209, 0.5);
+    background-color: rgba(18, 18, 18, 0.8); /* Fondo translúcido */
+}
+
+/* Estilo de los labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo de los inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00ffd1; /* Borde cibernético */
+    border-radius: 5px;
+    background-color: rgba(0, 255, 209, 0.1); /* Fondo claro */
+    color: #fff;
+}
+
+/* Estilo del botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0077; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ffd1; /* Cambio de color en hover */
+}
+
+/* Estilo del enlace */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #00ffd1; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff0077; /* Cambio de color en hover */
+}
