@@ -29,11 +29,16 @@ $mysqli->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard de Contaminación</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <h2>Dashboard de Contaminación</h2>
+<div class="dashboard">
+    <div class="dashboard-header">
+        <h2>Dashboard de Contaminación</h2>
+        <form action="generar_pdf.php" method="POST">
+            <button type="submit" class="btn-download">Descargar PDF</button>
+        </form>
+    </div>
     <table>
         <tr>
             <th>Fecha</th>
@@ -47,8 +52,10 @@ $mysqli->close();
             <td><?php echo $contaminacion_global; ?></td>
         </tr>
         <?php } ?>
-    </table>
-    <a href="contaminacion.php">Registrar Nueva Contaminación</a><br>
+        </table>
+    <a href="contaminacion.php">Registrar Nueva Contaminación</a>
     <a href="logout.php">Cerrar Sesión</a>
+</div>
 </body>
 </html>
+

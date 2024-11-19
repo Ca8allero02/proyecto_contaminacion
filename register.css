@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
-    background-color: #121212; /* Fondo oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #f5f5f5; /* Fondo claro y neutral */
+    color: #333333; /* Texto oscuro */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #2e7d32; /* Verde natural */
 }
 
 /* Contenedor del formulario */
@@ -19,16 +20,17 @@ form {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    border: 2px solid #00ffd1; /* Borde cibernético */
+    border: 1px solid #81c784; /* Borde verde */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 255, 209, 0.5);
-    background-color: rgba(18, 18, 18, 0.8); /* Fondo translúcido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Fondo blanco */
 }
 
 /* Estilo de los labels */
 label {
     display: block;
     margin-bottom: 5px;
+    color: #555555; /* Texto gris oscuro */
 }
 
 /* Estilo de los inputs */
@@ -37,10 +39,10 @@ input[type="password"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #00ffd1; /* Borde cibernético */
+    border: 1px solid #ccc; /* Borde gris claro */
     border-radius: 5px;
-    background-color: rgba(0, 255, 209, 0.1); /* Fondo claro */
-    color: #fff;
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333333; /* Texto oscuro */
 }
 
 /* Estilo del botón de enviar */
@@ -49,14 +51,14 @@ input[type="submit"] {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #ff0077; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #388e3c; /* Verde natural */
+    color: #ffffff; /* Texto blanco */
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
 input[type="submit"]:hover {
-    background-color: #00ffd1; /* Cambio de color en hover */
+    background-color: #2e7d32; /* Verde más oscuro en hover */
 }
 
 /* Estilo del enlace */
@@ -64,11 +66,11 @@ a {
     display: block;
     text-align: center;
     margin-top: 15px;
-    color: #00ffd1; /* Color del enlace */
+    color: #388e3c; /* Verde natural */
     text-decoration: none; /* Sin subrayado */
     transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-    color: #ff0077; /* Cambio de color en hover */
+    color: #2e7d32; /* Verde más oscuro en hover */
 }
